@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <AFNetworking/AFHTTPSessionManager.h>
-#import <Overcoat/OVCUtilities.h>
+#import <Overcoat_JX/OVCUtilities.h>
 
 @class OVCResponse;
 

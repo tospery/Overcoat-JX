@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <Mantle/Mantle.h>
-#import <Overcoat/OVCUtilities.h>
+#import <Overcoat_JX/OVCUtilities.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

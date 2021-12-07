@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import <AFNetworking/AFURLResponseSerialization.h>
-#import <Overcoat/OVCUtilities.h>
+#import <Overcoat_JX/OVCUtilities.h>
 
 @class OVCURLMatcher;
 

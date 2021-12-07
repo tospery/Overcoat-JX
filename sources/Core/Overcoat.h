@@ -20,10 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Overcoat/OVCUtilities.h>
-#import <Overcoat/OVCResponse.h>
-#import <Overcoat/OVCURLMatcher.h>
-#import <Overcoat/OVCModelResponseSerializer.h>
-#import <Overcoat/NSError+OVCResponse.h>
-#import <Overcoat/NSDictionary+Overcoat.h>
-#import <Overcoat/OVCHTTPSessionManager.h>
+#import <Overcoat_JX/OVCUtilities.h>
+#import <Overcoat_JX/OVCResponse.h>
+#import <Overcoat_JX/OVCURLMatcher.h>
+#import <Overcoat_JX/OVCModelResponseSerializer.h>
+#import <Overcoat_JX/NSError+OVCResponse.h>
+#import <Overcoat_JX/NSDictionary+Overcoat.h>
+#import <Overcoat_JX/OVCHTTPSessionManager.h>
