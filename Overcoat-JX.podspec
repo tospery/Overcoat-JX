@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
   s.dependency 'Mantle', '2.1.1'
   s.dependency 'AFNetworking', '3.2.1'
+  s.dependency 'ReactiveObjC', '3.1.1'
 
-  s.source_files = 'Sources/Core/*.{h,m}'
+  s.source_files = 'Sources/Core/*.{h,m}', 'Sources/ReactiveCocoa/*.{h,m}'
+
 end
