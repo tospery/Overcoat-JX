@@ -20,8 +20,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Overcoat/OVCHTTPSessionManager.h>
-#import <Overcoat/OVCUtilities.h>
+#import <Overcoat_JX/OVCHTTPSessionManager.h>
+#import <Overcoat_JX/OVCUtilities.h>
 
 @class RACSignal;
 

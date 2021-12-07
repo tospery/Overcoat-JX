@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.dependency 'Overcoat', "~> #{s.version.to_s}"
+  s.dependency 'Overcoat-JX', "~> #{s.version.to_s}"
   s.dependency 'ReactiveObjC', '3.1.1'
 
   s.source_files = 'Sources/ReactiveCocoa/*.{h,m}'
