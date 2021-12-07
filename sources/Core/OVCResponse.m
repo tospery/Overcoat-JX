@@ -49,8 +49,6 @@
         NSString *resultKeyPath = [[response class] resultKeyPathForJSONDictionary:JSONObject];
         if (resultKeyPath) {
             result = [(NSDictionary *)JSONObject ovc_objectForKeyPath:resultKeyPath];
-        } else {
-            response = [[self alloc] init];
         }
     } else {
         response = [[self alloc] init];
