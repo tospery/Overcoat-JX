@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'Overcoat-JX'
-  s.version  = File.read(File.join __dir__, 'Version').strip
+  s.version  = '4.0.0-beta.2-v3'
   s.cocoapods_version = '>= 0.39'
   s.license  = 'MIT'
   s.summary  = 'Overcoat is a small but powerful library that makes creating REST clients simple and fun.'
