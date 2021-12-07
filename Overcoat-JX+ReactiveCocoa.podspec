@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'Overcoat-JX+ReactiveCocoa'
-  s.version  = '4.0.0-beta.2-v3'
+  s.version  = File.read(File.join __dir__, 'Version').strip
   s.cocoapods_version = '>= 0.39'
   s.license  = 'MIT'
   s.summary  = 'Overcoat is a small but powerful library that makes creating REST clients simple and fun.'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.dependency 'Overcoat-JX', '4.0.0-beta.2-v3'
+  s.dependency 'Overcoat-JX', "~> #{s.version.to_s}"
   s.dependency 'ReactiveObjC', '3.1.1'
 
   s.source_files = 'Sources/ReactiveCocoa/*.{h,m}'
