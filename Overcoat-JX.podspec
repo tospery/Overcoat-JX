@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author           = { 'YangJianxiang' => 'tospery@gmail.com' }
   s.source           = { :git => 'https://github.com/tospery/Overcoat-JX.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'Overcoat-JX/Classes/**/*'
   
