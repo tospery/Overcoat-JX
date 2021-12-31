@@ -27,3 +27,4 @@
 #import <Overcoat_JX/NSError+OVCResponse.h>
 #import <Overcoat_JX/NSDictionary+Overcoat.h>
 #import <Overcoat_JX/OVCHTTPSessionManager.h>
+#import <Overcoat_JX/OVCHTTPSessionManager+ReactiveCocoa.h>
