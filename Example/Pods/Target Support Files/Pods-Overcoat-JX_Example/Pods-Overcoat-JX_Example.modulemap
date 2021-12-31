@@ -1,0 +1,6 @@
+framework module Pods_Overcoat_JX_Example {
+  umbrella header "Pods-Overcoat-JX_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

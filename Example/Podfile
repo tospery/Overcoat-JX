@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'Overcoat-JX_Example' do
+  pod 'Overcoat-JX', :path => '../'
+
+end
