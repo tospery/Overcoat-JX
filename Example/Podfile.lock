@@ -17,7 +17,7 @@ PODS:
   - Mantle (2.1.1):
     - Mantle/extobjc (= 2.1.1)
   - Mantle/extobjc (2.1.1)
-  - Overcoat-JX (4.0.0-beta.2-v7):
+  - Overcoat-JX (4.0.0-beta.2-v6):
     - AFNetworking (= 3.2.1)
     - Mantle (= 2.1.1)
     - ReactiveObjC (= 3.1.1)
@@ -39,7 +39,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
-  Overcoat-JX: 70debea269b83b01cc02884bc4134572b80eb3d6
+  Overcoat-JX: 34de03db6726f5bf0bf72ccefb95b1001d31fcd0
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
 PODFILE CHECKSUM: 285cbe3d5092e5705065ba321730673db407662d
