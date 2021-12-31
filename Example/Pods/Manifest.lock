@@ -14,10 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - Mantle-JX (2.2.0-v1)
-  - Overcoat-JX (4.0.2):
+  - Mantle-JX (2.2.0-v2)
+  - Overcoat-JX (4.0.4):
     - AFNetworking (= 3.2.1)
-    - Mantle-JX (= 2.2.0-v1)
+    - Mantle-JX (= 2.2.0-v2)
     - ReactiveObjC (= 3.1.1)
   - ReactiveObjC (3.1.1)
 
@@ -36,8 +36,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  Mantle-JX: 6fda67f6a57b220517b8e13e4bfd8fc49e618968
-  Overcoat-JX: d0f614704b15166ab15798ae54825914e6ea6694
+  Mantle-JX: d4610dc043cebdcc1748894bb387dc337489863e
+  Overcoat-JX: 93c05e6509bf9b6ff4bebde4f854232dbf800e41
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
 PODFILE CHECKSUM: 56551c8511f45ce17d05ab2ea58473e2e129d2ce

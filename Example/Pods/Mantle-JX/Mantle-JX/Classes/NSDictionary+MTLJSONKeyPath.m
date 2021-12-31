@@ -13,7 +13,20 @@
 @implementation NSDictionary (MTLJSONKeyPath)
 
 - (id)mtl_valueForJSONKeyPath:(NSString *)JSONKeyPath success:(BOOL *)success error:(NSError **)error {
-	NSArray *components = [JSONKeyPath componentsSeparatedByString:@"."];
+    NSArray *components = [JSONKeyPath componentsSeparatedByString:@"|"];
+    if (components.count >= 2) {
+        id result = nil;
+        for (NSString *component in components) {
+            result = [self mtl_valueForJSONKeyPath:component success:success error:error];
+            if (*success == YES && result) {
+                break;
+            }
+        }
+        if (*success == YES && result) {
+            return result;
+        }
+    }
+	components = [JSONKeyPath componentsSeparatedByString:@"."];
 
 	id result = self;
 	for (NSString *component in components) {
