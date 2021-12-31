@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Overcoat-JX'
-  s.version          = '4.0.0-beta.2-v6'
+  s.version          = '4.0.0-beta.2-v7'
   s.summary          = 'Overcoat is a small but powerful library that makes creating REST clients simple and fun.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author           = { 'YangJianxiang' => 'tospery@gmail.com' }
   s.source           = { :git => 'https://github.com/tospery/Overcoat-JX.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'Overcoat-JX/Classes/**/*'
   
