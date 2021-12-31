@@ -20,7 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Mantle/Mantle.h>
+#import <Mantle_JX/Mantle.h>
 #import <Overcoat_JX/OVCUtilities.h>
 
 NS_ASSUME_NONNULL_BEGIN

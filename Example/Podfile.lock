@@ -14,12 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - Mantle (2.1.1):
-    - Mantle/extobjc (= 2.1.1)
-  - Mantle/extobjc (2.1.1)
-  - Overcoat-JX (4.0.0-beta.2-v7):
+  - Mantle-JX (2.2.0-v1)
+  - Overcoat-JX (4.0.2):
     - AFNetworking (= 3.2.1)
-    - Mantle (= 2.1.1)
+    - Mantle-JX (= 2.2.0-v1)
     - ReactiveObjC (= 3.1.1)
   - ReactiveObjC (3.1.1)
 
@@ -27,9 +25,9 @@ DEPENDENCIES:
   - Overcoat-JX (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-    - Mantle
+    - Mantle-JX
     - ReactiveObjC
 
 EXTERNAL SOURCES:
@@ -38,10 +36,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
-  Overcoat-JX: 70debea269b83b01cc02884bc4134572b80eb3d6
+  Mantle-JX: 6fda67f6a57b220517b8e13e4bfd8fc49e618968
+  Overcoat-JX: d0f614704b15166ab15798ae54825914e6ea6694
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 285cbe3d5092e5705065ba321730673db407662d
+PODFILE CHECKSUM: 56551c8511f45ce17d05ab2ea58473e2e129d2ce
 
 COCOAPODS: 1.11.2

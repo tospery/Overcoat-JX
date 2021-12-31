@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import "OVCModelResponseSerializer.h"
-#import <Mantle/Mantle.h>
+#import <Mantle_JX/Mantle.h>
 #import "OVCResponse.h"
 #import "OVCURLMatcher.h"
 #import "NSError+OVCResponse.h"

@@ -19,7 +19,6 @@
 #import "OVCURLMatcher.h"
 #import "OVCUtilities.h"
 #import "Overcoat.h"
-#import "OvercoatReactiveCocoa.h"
 
 FOUNDATION_EXPORT double Overcoat_JXVersionNumber;
 FOUNDATION_EXPORT const unsigned char Overcoat_JXVersionString[];

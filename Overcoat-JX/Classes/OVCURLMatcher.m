@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import "OVCURLMatcher.h"
-#import <Mantle/Mantle.h>
+#import <Mantle_JX/Mantle.h>
 #import <objc/runtime.h>
 
 typedef NS_ENUM(NSInteger, OVCURLMatcherType) {  // The integer value is related to search order

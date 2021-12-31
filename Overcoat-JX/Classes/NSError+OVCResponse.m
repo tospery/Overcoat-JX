@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import "NSError+OVCResponse.h"
-#import <Mantle/NSDictionary+MTLManipulationAdditions.h>
+#import <Mantle_JX/NSDictionary+MTLManipulationAdditions.h>
 
 NSString *const OVCResponseKey = @"OVCResponse";
 
