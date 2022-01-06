@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Overcoat-JX'
-  s.version          = '4.0.4'
+  s.version          = '4.0.5'
   s.summary          = 'Overcoat is a small but powerful library that makes creating REST clients simple and fun.'
 
 # This description is used to generate tags and improve search results.
@@ -27,11 +27,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/tospery/Overcoat-JX.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
-
-  s.source_files = 'Overcoat-JX/Classes/**/*'
+  s.source_files = 'Overcoat-JX/**/*'
   
-  s.frameworks = 'UIKit'
+  s.frameworks = 'Foundation'
   s.dependency 'ReactiveObjC', '3.1.1'
   s.dependency 'AFNetworking', '3.2.1'
-  s.dependency 'Mantle-JX', '2.2.0-v2'
+  s.dependency 'Mantle-JX', '2.2.0-v3'
 end

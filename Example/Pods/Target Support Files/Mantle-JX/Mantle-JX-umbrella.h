@@ -10,10 +10,9 @@
 #endif
 #endif
 
-#import "MTLEXTKeyPathCoding.h"
-#import "MTLEXTRuntimeExtensions.h"
-#import "MTLEXTScope.h"
-#import "MTLMetamacros.h"
+#import "MTLReflection.h"
+#import "NSDictionary+MTLJSONKeyPath.h"
+#import "NSError+MTLModelException.h"
 #import "Mantle.h"
 #import "MTLJSONAdapter.h"
 #import "MTLModel+NSCoding.h"
@@ -26,9 +25,6 @@
 #import "NSObject+MTLComparisonAdditions.h"
 #import "NSValueTransformer+MTLInversionAdditions.h"
 #import "NSValueTransformer+MTLPredefinedTransformerAdditions.h"
-#import "MTLReflection.h"
-#import "NSDictionary+MTLJSONKeyPath.h"
-#import "NSError+MTLModelException.h"
 
 FOUNDATION_EXPORT double Mantle_JXVersionNumber;
 FOUNDATION_EXPORT const unsigned char Mantle_JXVersionString[];
