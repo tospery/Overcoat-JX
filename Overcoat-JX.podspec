@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
   s.dependency 'ReactiveObjC', '3.1.1'
   s.dependency 'AFNetworking', '3.2.1'
-  s.dependency 'Mantle-JX', '2.2.0-v3'
+  s.dependency 'Mantle-JX', '2.2.0-v4'
 end
